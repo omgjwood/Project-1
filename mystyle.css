@@ -1,0 +1,152 @@
+body{
+    background-color:#39004d;
+}
+
+h1{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    font-size: 45px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color:#ffffff;
+}
+
+header{
+    width:100%;  
+}
+
+.mainnav{
+    display: inline-flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    list-style:none;
+    float: right;
+    margin: 0px;
+    position: relative;
+}
+
+li{
+    border-right: #ffffff 1px solid;
+    padding: 15px;
+    float: right;
+    line-height: 2px;
+}
+
+nav a:link{
+	color: white;
+	text-decoration: none;	
+}
+
+nav a:hover{
+    color: black;
+	text-decoration: none;
+}
+
+nav a:visited{
+    color:white;
+    text-decoration:none;
+}
+
+li: child(4){
+    border: none;
+}
+
+.JM{
+    font-size: 20px;
+    float: left;
+    display: block;
+    margin: 0px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.port{
+    text-align: center;
+}
+
+.web{
+    height: 500px;
+    width: 100px;
+}
+
+.web li{
+    list-style: none;
+    border: none;
+}
+
+.print{
+    height: 700px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
+.print li{
+    list-style: none;
+    border: none;
+    display:block;
+}
+
+#col {
+-moz-column-count: 500px;
+-webkit-column-count: 500px;
+column-count: 500px;
+    display: inline-flex;
+}
+
+#col2 {
+-moz-column-count: 2;
+-webkit-column-count: 2;
+column-count: 2;
+    display: inline-flex;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.side_col{
+  width: 15%;
+    height: 400px;
+    float:right;
+    padding: 5px;
+    margin: 10px;
+    border: 2px white solid;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+.side_col ul{
+}
+
+.side_col li{
+    list-style: none;
+    border: none;
+    float: left;
+    text-indent: 0px;
+}  
+.side_col:hover {
+  background-color: white;
+color: #39004d;
+}
+
+img{
+    padding: 15px;
+    margin: 10px;
+}
+
+img:hover{
+    transform: scale(2);  
+}
+
+footer{
+    clear: both;
