@@ -6,11 +6,13 @@ h1{
     font-family: 'Arima Madurai', cursive;
     font-size: 100px;
     text-align: center;
+    margin-top: 50px;
 }
 
 h2{
     font-size: 45px;
     text-align: center;
+    margin-top: 50px;
 }
 
 body{
@@ -22,7 +24,13 @@ header{
     width:100%;  
 }
 
-
+.navbar-default {
+    background-color:#f2f2f2;
+    border: none;
+}
+.navbar-nav>li{
+    color:#f2f2f2;
+}
 
 nav a:hover{
     color: black;
