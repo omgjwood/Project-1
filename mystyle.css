@@ -24,12 +24,14 @@ header{
     width:100%;  
 }
 
-.navbar-default {
+.nav{
+    
     background-color:#f2f2f2;
     border: none;
+    color:#39004d;
 }
 .navbar-nav>li{
-    color:#f2f2f2;
+    color:#39004d;
 }
 
 nav a:hover{
