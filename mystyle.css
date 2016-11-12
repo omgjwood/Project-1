@@ -1,15 +1,16 @@
-body{
+body {
     background-color:#f2f2f2;
 }
 
-h1{
+h1 {
     font-family: 'Arima Madurai', cursive;
     font-size: 80px;
     text-align: center;
     margin-top: 50px;
+    color: #f2f2f2;
 }
 
-h2{
+h2 {
     font-size: 45px;
     text-align: center;
     margin-top: 50px;
@@ -20,11 +21,11 @@ body {
     color:#39004d;
 }
 
-header{
+header {
     width:100%;  
 }
 
-.navbar-default{
+.navbar-default {
     border: none;
     color:#39004d;
     background-color: #f2f2f2;
@@ -38,26 +39,31 @@ header{
     color:#39004d;
 }
 
-nav a:hover{
+nav a:hover {
     color: black;
 	text-decoration: none;
 }
 
-nav a:visited{
+nav a:visited {
     color:white;
     text-decoration:none;
 }
 
-img{
+img {
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
 }
 
-footer{
+footer {
     clear: both;
 }
 
-.centered{
+.centered {
+    text-align: center;
+}
+
+figcaption {
+    display: block;
     text-align: center;
 }
