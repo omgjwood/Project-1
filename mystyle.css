@@ -68,3 +68,9 @@ figcaption {
     display: block;
     text-align: center;
 }
+
+.resumetop {
+    text-align: center;
+    line-height: .2em;
+} 
+
