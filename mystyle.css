@@ -75,3 +75,8 @@ figcaption {
     line-height: .2em;
 } 
 
+.btn-success {
+    color: #fff;
+    background-color: #39004d;
+    border-color: #39004d;
+}
