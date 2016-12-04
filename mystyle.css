@@ -54,6 +54,7 @@ img {
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
 }
 
 footer {
@@ -79,4 +80,9 @@ figcaption {
     color: #fff;
     background-color: #39004d;
     border-color: #39004d;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
