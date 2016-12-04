@@ -86,3 +86,19 @@ a {
     color: white;
     text-decoration: none;
 }
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #39004d;;
+    border-color: #39004d;
+    padding: 5px 10px;
+}
+
+button, input, optgroup, select, textarea {
+    margin-left: 15px;
+    
+}
