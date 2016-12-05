@@ -114,3 +114,12 @@ h5 {
     background-color: #e6e6e6;
     color: #39004d;
 }
+
+.modal-open .modal {
+    background-color: rgba(0, 0, 0, 0.83)
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #fff;
+    color: #000;
+}
